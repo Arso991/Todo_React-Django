@@ -1,0 +1,66 @@
+.table-container{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+}
+
+table {
+    width: 60rem;
+    border-collapse: collapse;
+}
+
+table thead td {
+    padding: 1rem;
+    font-size: 1.2rem;
+    text-align: center;
+    font-weight: bold;
+    background-color: #101828;
+    color: white;
+}
+
+table tbody td {
+    padding: 0.5rem;
+    text-align: center;
+}
+
+.task-status{
+    display: flex;
+    justify-content: center;
+}
+
+.task-status1, .task-status2{
+    padding: 4px;
+    background-color: gray;
+    border-radius: 15px;
+    color: white;
+    font-weight: 600;
+    font-size: 14px;
+    width: 80px;
+}
+
+.task-status2{
+    background-color: orange;
+}
+
+.table-btn{
+    display: flex;
+}
+
+.table-btn1, .table-btn2{
+    padding: 5px 0;
+    border-radius: 8px;
+    width: 100px;
+    color: white;
+    border: none;
+    cursor: pointer;
+    background-color: green;
+    margin-left: 10px;
+}
+
+.table-btn2{
+    background-color: rgb(227, 110, 110);
+}
+
+.finish{
+    text-decoration: line-through;
+}
